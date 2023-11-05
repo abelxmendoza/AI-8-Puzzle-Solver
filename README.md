@@ -24,6 +24,14 @@ In the field of artificial intelligence, heuristics are essential tools for guid
 
 In the context of the AI 8-Puzzle Solver, the chosen heuristic is the Manhattan distance. The Manhattan distance heuristic estimates the number of moves required to transform the current state of the puzzle into the goal state. It calculates this distance by summing the absolute horizontal and vertical distances of each tile from its current position to its goal position. By using the Manhattan distance as a heuristic, the solver can assess the quality of each puzzle state and make informed decisions on which
 
+## Hill Climbing Search
+
+Hill climbing is a local search algorithm that falls under the category of optimization techniques. It is a straightforward yet effective approach for solving problems with many possible states. Hill climbing starts with an initial state and iteratively explores neighboring states to find the one that optimizes a given objective function. The search continues as long as improvements can be made to the objective function. When no better state can be found, the algorithm terminates.
+
+In the context of the AI 8-Puzzle Solver, the objective function is based on the Manhattan distance heuristic. The solver begins with the initial state of the puzzle and systematically evaluates possible moves by calculating the Manhattan distance for each successor state. The move that minimizes the heuristic value is chosen, and the process continues until the goal state is reached or no better move can be found. Hill climbing is a simple yet effective strategy for solving the 8-puzzle problem and many other optimization problems.
+
+The AI 8-Puzzle Solver showcases how heuristics and hill climbing search can work together to find solutions in a systematic and efficient manner. By understanding these concepts, users and contributors can gain insights into the underlying principles of this project and apply them to other problem-solving scenarios.
+
 ## Getting Started
 
 To use this solver, you'll need Python installed on your system. Follow these steps to get started:
