@@ -2,7 +2,6 @@
 
 Welcome to the AI 8-Puzzle Solver repository. This project is a Python implementation of an 8-puzzle solver that uses the hill-climbing search algorithm with the Manhattan distance heuristic. The 8-puzzle is a classic problem in artificial intelligence, and this solver demonstrates how to find a solution by iteratively optimizing the state using the chosen heuristic.
 
-
 ## About
 
 The AI 8-Puzzle Solver is a Python-based project that aims to solve the classic 8-puzzle problem using artificial intelligence techniques. The 8-puzzle is a sliding puzzle with 8 tiles, initially arranged in random order, and a blank space. The objective is to rearrange the tiles into a predefined goal configuration by sliding them one at a time into the blank space. The AI 8-Puzzle Solver uses the hill-climbing search algorithm with the Manhattan distance heuristic to find a solution.
@@ -14,7 +13,6 @@ The AI 8-Puzzle Solver is a Python-based project that aims to solve the classic 
 - **Customization:** The project is designed to be customizable. You can extend it by implementing additional search algorithms, allowing users to specify initial and goal states, or enhancing the user interface.
 
 The AI 8-Puzzle Solver is a valuable resource for both educational purposes and as a starting point for exploring AI-based problem-solving in Python. We encourage contributions and welcome ideas to improve and expand this project.
-
 
 ## Heuristics and Hill Climbing Search
 
@@ -48,7 +46,6 @@ cd AI-8-Puzzle-Solver
 python3 8puzzle.py
 ```
 
-
 The solver will attempt to find a solution to the 8-puzzle problem using the hill-climbing algorithm with the Manhattan distance heuristic.
 
 ## Repository Structure
@@ -72,6 +69,10 @@ We welcome contributions to this project. If you'd like to contribute, please fo
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://chat.openai.com/c/LICENSE) file for details.
+
+## Documentation
+
+[https://docs.google.com/document/d/1i8ZF_3nv9Xu9OFSWNbx9NwFIbYK9zd9zeYxNLqdNRB0/edit?usp=sharing]([https://docs.google.com/document/d/1i8ZF_3nv9Xu9OFSWNbx9NwFIbYK9zd9zeYxNLqdNRB0/edit?usp=sharing]())
 
 ## Contact
 
