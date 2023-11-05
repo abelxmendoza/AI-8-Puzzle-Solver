@@ -72,7 +72,7 @@ This project is licensed under the MIT License. See the [LICENSE](https://chat.o
 
 ## Documentation
 
-[https://docs.google.com/document/d/1i8ZF_3nv9Xu9OFSWNbx9NwFIbYK9zd9zeYxNLqdNRB0/edit?usp=sharing]([https://docs.google.com/document/d/1i8ZF_3nv9Xu9OFSWNbx9NwFIbYK9zd9zeYxNLqdNRB0/edit?usp=sharing]())
+[https://docs.google.com/document/d/1i8ZF_3nv9Xu9OFSWNbx9NwFIbYK9zd9zeYxNLqdNRB0/edit?usp=sharing](https://docs.google.com/document/d/1i8ZF_3nv9Xu9OFSWNbx9NwFIbYK9zd9zeYxNLqdNRB0/edit?usp=sharing]())
 
 ## Contact
 
