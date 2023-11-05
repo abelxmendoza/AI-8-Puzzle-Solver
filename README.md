@@ -2,6 +2,30 @@
 
 Welcome to the AI 8-Puzzle Solver repository. This project is a Python implementation of an 8-puzzle solver that uses the hill-climbing search algorithm with the Manhattan distance heuristic. The 8-puzzle is a classic problem in artificial intelligence, and this solver demonstrates how to find a solution by iteratively optimizing the state using the chosen heuristic.
 
+
+## About
+
+The AI 8-Puzzle Solver is a Python-based project that aims to solve the classic 8-puzzle problem using artificial intelligence techniques. The 8-puzzle is a sliding puzzle with 8 tiles, initially arranged in random order, and a blank space. The objective is to rearrange the tiles into a predefined goal configuration by sliding them one at a time into the blank space. The AI 8-Puzzle Solver uses the hill-climbing search algorithm with the Manhattan distance heuristic to find a solution.
+
+### Key Features:
+
+- **Hill Climbing Algorithm:** The solver employs a hill-climbing search strategy to iteratively improve the puzzle's state based on a chosen heuristic.
+- **Manhattan Distance Heuristic:** The Manhattan distance is used as a heuristic to estimate the number of moves required to reach the goal state. This heuristic helps guide the search.
+- **Customization:** The project is designed to be customizable. You can extend it by implementing additional search algorithms, allowing users to specify initial and goal states, or enhancing the user interface.
+
+The AI 8-Puzzle Solver is a valuable resource for both educational purposes and as a starting point for exploring AI-based problem-solving in Python. We encourage contributions and welcome ideas to improve and expand this project.
+
+
+## Heuristics and Hill Climbing Search
+
+### Heuristics in Problem Solving
+
+    In the field of artificial intelligence, heuristics are essential tools for guiding search algorithms when exploring solution spaces. A heuristic is a rule of thumb or an estimate that helps determine the quality of a potential solution without the need for an exhaustive search. Heuristics are particularly valuable in scenarios where finding an optimal solution is computationally expensive or impractical.
+
+#### Manhattan Distance Heuristic
+
+    In the context of the AI 8-Puzzle Solver, the chosen heuristic is the Manhattan distance. The Manhattan distance heuristic estimates the number of moves required to transform the current state of the puzzle into the goal state. It calculates this distance by summing the absolute horizontal and vertical distances of each tile from its current position to its goal position. By using the Manhattan distance as a heuristic, the solver can assess the quality of each puzzle state and make informed decisions on which
+
 ## Getting Started
 
 To use this solver, you'll need Python installed on your system. Follow these steps to get started:
@@ -54,12 +78,3 @@ This project is licensed under the MIT License. See the [LICENSE](https://chat.o
 If you have any questions or need further assistance, please feel free to contact us at [[abelxmendoza@gmail.com](mailto:your.email@example.com)].
 
 Happy puzzle-solving!
-
-```bash
-python3 8puzzle.py
-```
-
-
-```bash
-python3 8puzzle.py
-```
