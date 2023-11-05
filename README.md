@@ -6,6 +6,8 @@ Welcome to the AI 8-Puzzle Solver repository. This project is a Python implement
 
 The AI 8-Puzzle Solver is a Python-based project that aims to solve the classic 8-puzzle problem using artificial intelligence techniques. The 8-puzzle is a sliding puzzle with 8 tiles, initially arranged in random order, and a blank space. The objective is to rearrange the tiles into a predefined goal configuration by sliding them one at a time into the blank space. The AI 8-Puzzle Solver uses the hill-climbing search algorithm with the Manhattan distance heuristic to find a solution.
 
+![1699218664331](image/README/1699218664331.png)
+
 ### Key Features:
 
 - **Hill Climbing Algorithm:** The solver employs a hill-climbing search strategy to iteratively improve the puzzle's state based on a chosen heuristic.
