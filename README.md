@@ -20,11 +20,11 @@ The AI 8-Puzzle Solver is a valuable resource for both educational purposes and 
 
 ### Heuristics in Problem Solving
 
-    In the field of artificial intelligence, heuristics are essential tools for guiding search algorithms when exploring solution spaces. A heuristic is a rule of thumb or an estimate that helps determine the quality of a potential solution without the need for an exhaustive search. Heuristics are particularly valuable in scenarios where finding an optimal solution is computationally expensive or impractical.
+In the field of artificial intelligence, heuristics are essential tools for guiding search algorithms when exploring solution spaces. A heuristic is a rule of thumb or an estimate that helps determine the quality of a potential solution without the need for an exhaustive search. Heuristics are particularly valuable in scenarios where finding an optimal solution is computationally expensive or impractical.
 
 #### Manhattan Distance Heuristic
 
-    In the context of the AI 8-Puzzle Solver, the chosen heuristic is the Manhattan distance. The Manhattan distance heuristic estimates the number of moves required to transform the current state of the puzzle into the goal state. It calculates this distance by summing the absolute horizontal and vertical distances of each tile from its current position to its goal position. By using the Manhattan distance as a heuristic, the solver can assess the quality of each puzzle state and make informed decisions on which
+In the context of the AI 8-Puzzle Solver, the chosen heuristic is the Manhattan distance. The Manhattan distance heuristic estimates the number of moves required to transform the current state of the puzzle into the goal state. It calculates this distance by summing the absolute horizontal and vertical distances of each tile from its current position to its goal position. By using the Manhattan distance as a heuristic, the solver can assess the quality of each puzzle state and make informed decisions on which
 
 ## Getting Started
 
